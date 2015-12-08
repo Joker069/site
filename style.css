@@ -7,9 +7,21 @@ height: 100%;
 
 h1{
 font-size: 40px;
-text-decoration: blink;
 text-align: center;
 color:white;
 border-style: double;
-border-left: 50px;
+padding:2%;
+width: 50%;
+margin:0 auto;
+
+}
+
+#menu{
+color:white;
+}
+
+#bob
+{
+    background: url('images/bob.jpg') no-repeat;
+	background-position: left left;
 }
