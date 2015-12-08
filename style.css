@@ -10,18 +10,41 @@ font-size: 40px;
 text-align: center;
 color:white;
 border-style: double;
-padding:2%;
+padding:0.7em;
 width: 50%;
-margin:0 auto;
+margin:auto;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+
+
 
 }
-
-#menu{
-color:white;
-}
-
 #bob
 {
     background: url('images/bob.jpg') no-repeat;
 	background-position: left left;
+	background-position: top top;
+	position:absolute;
+	top:0;
+	left:0;
+	width: 50%;
+	height:16%;
+	color:white;
+	
 }
+
+#menu{
+color:white;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	width: 15%;
+    height:100%;
+	background-color:rgba(140,255,140,0.9);
+	
+}
+
+
