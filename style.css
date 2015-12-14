@@ -10,13 +10,9 @@ font-size: 40px;
 text-align: center;
 color:white;
 border-style: double;
-padding:0.7em;
 width: 50%;
 margin:auto;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
+
 
 
 
@@ -36,27 +32,25 @@ right: 0;
 }
 
 #menu{
-margin-top:1%;
-display=block;
+
+display:block;
 color:white;
 	border-radius: 5px;
-	position:absolute;
-	left: 0;
-	bottom:0;
-	width: 12%;
-    height:80%;
+	width: 120px;
+    height:350px;
 	background-color:rgba(140,255,140,0.9);
 	
 }
 
 #promo
 {
-        margin-top: 10%;
-		margin-left: 22%;
-	display: inline-block;
-	vertical-align: top;
+background-image: url('images/promo.png');
+background-repeat: no-repeat;
+background-position: 100% 0%;
+background-size: 10%;
+margin: -450px 10px 10px 150px;
 	width: 70%;
-	height: 70%;
+	min-height: 300px;
 	border-radius: 5px;
 	background-color: rgba(180,255,180,0.9);
 	color: rgba(0,128,128,1);
